@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/fbadad80a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="weather__section">
+      <div class="weather__section--center">
+        <div class="weather__section--center-holder">
+          <p class="p-title-one">Is it gonna be cold tommorow?</p>
+          <p class="p-title-two">Check below!</p>
+
+          <label for="city" class="weather__section--center-holder-label">
+          </label>
+          <input
+            type="text"
+            id="city"
+            class="weather__section--center-holder-input"
+            placeholder="Insert a city name"
+          />
+        </div>
+
+        <div class="weather__section--btn">
+          <button class="weather__section--btn-btn" id="searchCity">
+            Show forcast
+          </button>
+        </div>
+
+        <div class="weather__section--info">
+          <div class="weather__section--info_singlecard">
+            <p><span id="currentTemp">24 </span></p>
+            <p>Today</p>
+          </div>
+        </div>
+
+        <div class="weather__section--info-center">
+          <div class="weather__section--info-5cards">
+            <!-- Start -->
+            <!-- <div class="weather__section--info-5cards__card">
+            <p><span id="currentTemp">24 </span></p>
+            <i class="fas fa-sun"></i>
+            <p id="city">City</p>
+          </div> -->
+            <!-- End -->
+
+            <!-- Start -->
+            <!-- <div class="weather__section--info-5cards__card">
+            <p><span id="currentTemp">24 </span></p>
+            <i class="fas fa-sun"></i>
+            <p id="city">City</p>
+          </div> -->
+            <!-- End -->
+
+            <!-- Start -->
+            <!-- <div class="weather__section--info-5cards__card">
+            <p><span id="currentTemp">24 </span></p>
+            <i class="fas fa-sun"></i>
+            <p id="city">City</p>
+          </div> -->
+            <!-- End -->
+
+            <!-- Start -->
+            <!-- <div class="weather__section--info-5cards__card">
+            <p><span id="currentTemp">24 </span></p>
+            <i class="fas fa-sun"></i>
+            <p id="city">City</p>
+          </div> -->
+            <!-- End -->
+
+            <!-- Start -->
+            <!-- <div class="weather__section--info-5cards__card">
+            <p><span id="currentTemp">24 </span></p>
+            <i class="fas fa-sun"></i>
+            <p id="city">City</p>
+          </div> -->
+            <!-- End -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
